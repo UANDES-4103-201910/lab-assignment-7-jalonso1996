@@ -1,3 +1,48 @@
 /* Define your CSS styles here */
-/* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+body{
+  background-color: #fff;
+}
+
+.keyboard{
+  width:620px; height: 210px;
+  background-color: #1E90FF;
+  margin: 0px auto;
+  border-radius: 9px;
+  padding: 10px;
+  color: #eee;
+}
+
+.key{
+  width: 40px; height:40px;
+  display:block;
+  background-color:#111;
+  text-align: left;
+  padding-left: 8px;
+  line-height: 29px;
+  border-radius:2px;
+  float:left; margin-left: 2px;
+  margin-bottom:2px;
+  cursor: pointer;
+}
+
+.section-a{width:630px; height:260px; float:left;}
+
+.dual {font-size: 14px; line-height: 20px; width:30px; }
+.backspace {width:84px; font-size: 12px;}
+.tab {width: 50px; line-height: 40px; font-size:13px;}
+.letter{width:30px;}
+.slash{width:64px;}
+.space1{margin-left:76px;}
+.space2{margin-left:76px;}
+.enter{width:98px; line-height:40px; text-align: center; padding-left:0;}
+.shift.left{width: 90px;line-height: 40px; font-size:13px;}
+.shift.right{width: 104px;line-height: 40px; font-size:13px;}
+.accept{width: 90px; line-height: 40px; font-size:17px;}
+.space{width:300px;}
+.cancel{width: 90px; line-height: 40px; font-size:17px;}
+.hidden{visibility: hidden;}
+
+.key:hover{background-color: #14B524;}
+.key:active { transform:translateY(1px); background:#ADFF2F;}
+/* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
